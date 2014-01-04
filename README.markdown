@@ -1,7 +1,8 @@
 
 puredom.sync
 ============
-A puredom plugin that lets you synchronously chain asynchronous functions.
+A puredom plugin that lets you synchronously chain asynchronous functions.  
+**Version 1.1.0** 
 
 
 What it Does
@@ -55,8 +56,19 @@ puredom('.foo').sync().fadeIn().fadeOut().then(function() {
 });
 ```
 
+
+Changelog
+=========
+**1.1.0** *(Jan 3rd, 2014)*  
+- Add AMD support  
+- JSHint fix  
+  
+**1.0.0**  
+- Initial release  
+
+
 License
--------
+=======
 This plugin is available under the BSD-3-Clause License:
 
 >	Copyright (c) Jason Miller. All rights reserved.
