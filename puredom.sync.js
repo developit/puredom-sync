@@ -133,6 +133,7 @@
 			fadeOut	: 1,
 			animate	: 3,
 			css		: 2,
+			on		: 1,
 			_createAnimationObj : 3,
 			position : [2, "callback"]
 		},
