@@ -63,12 +63,25 @@
 		 *	@returns {this}
 		 */
 		then : function(callback) {
+			this._then = true;
+			return this.and.apply(this, arguments);
+		},
+		
+		/**	Invoke a <code>callback</code> after previous chained synchronous operations have completed.<br />
+		 *	<strong>Note:</strong> Unlike <code>.then()</code>, this does not terminate the chain.<br />
+		 *	<strong>Note:</strong> Any additional arguments are passed on to <code>callback</code>, similar to how Function.prototype.bind() works.
+		 *	@param {Function} callback		A function to call between synchronous chained methods. Gets passed the original (asynchronous) puredom selection (see <code>.async()</code>).
+		 *	@returns {this}
+		 */
+		and : function(callback) {
 			var args = puredom.toArray(arguments).slice(1);
 			this._addToQueue(function() {
 				args.splice(0, 0, this._selection);
 				callback.apply(this._selection, args);
+				if (this._then===true) {
+					this.async();
+				}
 				args = callback = null;
-				this.async();
 			}, null, this, true);
 			return this;
 		},
