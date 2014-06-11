@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/developit/puredom.sync.svg?branch=master)](https://travis-ci.org/developit/puredom.sync)  
 
 puredom.sync
 ============
