@@ -1,6 +1,9 @@
 {
   "name": "puredom-sync",
   "version": "1.2.0",
+  "description": "A puredom plugin that lets you chain sequential asynchronous functions.",
+  "main": "puredom-sync.js",
+  "readme": "README.md",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.8.0",

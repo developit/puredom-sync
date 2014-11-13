@@ -1,7 +1,7 @@
 puredom-sync [![Version](https://img.shields.io/npm/v/puredom-sync.svg?style=flat)](https://www.npmjs.org/package/puredom-sync) ⎔ [![Build Status](https://img.shields.io/travis/developit/puredom-sync.svg?style=flat&branch=master)](https://travis-ci.org/developit/puredom-sync)
 =============
 
-A [puredom](http://puredom.org) plugin that lets you synchronously chain asynchronous functions.  
+A [puredom](http://puredom.org) plugin that lets you chain sequential asynchronous functions.  
 
 
 ---

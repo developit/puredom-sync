@@ -1,0 +1,34 @@
+{
+  "name": "puredom-sync",
+  "version": "1.2.0",
+  "homepage": "https://github.com/developit/puredom-sync",
+  "authors": [
+    "Jason Miller <jason@developit.ca>"
+  ],
+  "description": "A puredom plugin that lets you chain sequential asynchronous functions.",
+  "main": "puredom-sync.js",
+  "moduleType": [
+    "amd",
+	"cjs",
+    "globals"
+  ],
+  "keywords": [
+    "puredom",
+    "selection",
+    "plugin",
+	"animation"
+  ],
+  "license": "BSD 3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+	"**/*.min.js",
+	"Gruntfile.js",
+	"package.json",
+	"LICENSE"
+  ],
+  "peerDependencies": {
+    "puredom": "~1.x.x"
+  }
+}
