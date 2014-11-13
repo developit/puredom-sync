@@ -1,6 +1,6 @@
 {
-  "name": "puredom.sync",
-  "version": "1.1.0",
+  "name": "puredom-sync",
+  "version": "1.2.0",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.8.0",

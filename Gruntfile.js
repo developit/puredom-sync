@@ -5,11 +5,11 @@ module.exports = function(grunt) {
 		uglify: {
 			main : {
 				options: {
-					banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+					banner: '/*! <%= pkg.name %> <%= pkg.version %> */\n'
 				},
 				files: {
-					'puredom.sync.min.js': [
-						'puredom.sync.js'
+					'<%= pkg.name %>.min.js': [
+						'<%= pkg.name %>.js'
 					]
 				}
 			}
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 				browser : true
 			},
 			main : [
-				'puredom.sync.js'
+				'<%= pkg.name %>.js'
 			]
 		}
 	});
@@ -31,5 +31,5 @@ module.exports = function(grunt) {
 		'jshint:main',
 		'uglify:main'
 	]);
-	
+
 };
