@@ -1,6 +1,6 @@
 {
   "name": "puredom-sync",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/developit/puredom-sync",
   "authors": [
     "Jason Miller <jason@developit.ca>"
@@ -9,24 +9,25 @@
   "main": "puredom-sync.js",
   "moduleType": [
     "amd",
-	"cjs",
+    "cjs",
     "globals"
   ],
   "keywords": [
     "puredom",
     "selection",
     "plugin",
-	"animation"
+    "animation"
   ],
   "license": "BSD 3-Clause",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-	"**/*.min.js",
-	"Gruntfile.js",
-	"package.json",
-	"LICENSE"
+    "**/*.min.js",
+    "Gruntfile.js",
+    "package.json",
+    "LICENSE",
+    "README.md"
   ],
   "peerDependencies": {
     "puredom": "~1.x.x"

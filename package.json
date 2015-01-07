@@ -1,12 +1,27 @@
 {
   "name": "puredom-sync",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A puredom plugin that lets you chain sequential asynchronous functions.",
+  "author": "Jason Miller <jason@developit.ca>",
+  "homepage": "https://github.com/developit/puredom-sync",
   "main": "puredom-sync.js",
+  "keywords": [
+    "puredom",
+    "chaining",
+    "selection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/developit/puredom-sync.git"
+  },
   "readme": "README.md",
+  "licence": "BSD 3-Clause",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-uglify": "~0.2.7"
+  },
+  "peerDependencies": {
+    "puredom": "~1.x.x"
   }
 }
